@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Editorial New";
+  src: url("fonts\EditorialNew-Regular.woff"),
+    url("fonts\EditorialNew-Regular.woff2");
+}
+
+@font-face {
+  font-family: "League Gothic";
+  src: url("fonts\LeagueGothic-Regular.woff"),
+    url("fonts\LeagueGothic-Regular.woff2");
+}
+
+:root {
+  --light: #fcfcfd;
+  --dark: #0d0d0d;
+  --accent: #d44502;
+}
+
+.gothic {
+  font-family: "League Gothic";
+}
+
+.editorial {
+  font-family: "Editorial New";
+}
+
+.light {
+  color: var(--light);
+}
+
+.dark {
+  color: var(--dark);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.container {
+  padding-inline: 96px;
+}
+
+.hero {
+  position: relative;
+  background-origin: content-box;
+  background-color: var(--dark);
+  padding-left: 176px;
+  padding-bottom: 80px;
+}
+
+.hero-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-content {
+  position: absolute;
+  left: 0;
+  bottom: 24%;
+}
+
+.subhead {
+  max-width: 350px;
+}
+
+.hero-changer {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+
+.change-slide {
+  width: 10px;
+  height: 10px;
+  border: solid var(--light);
+}
