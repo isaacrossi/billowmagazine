@@ -40,12 +40,21 @@
   padding-inline: 96px;
 }
 
+h1 {
+  max-width: 410px;
+}
+
 .hero {
   position: relative;
-  background-origin: content-box;
   background-color: var(--dark);
-  padding-left: 176px;
-  padding-bottom: 80px;
+}
+
+.hero-slideshow {
+  position: absolute;
+  top: 0;
+  bottom: 4.5rem;
+  right: 0;
+  left: 10.5rem;
 }
 
 .hero-menu {
@@ -54,10 +63,14 @@
   left: 0;
 }
 
+.hero-menu ul {
+  list-style-type: none;
+}
+
 .hero-content {
   position: absolute;
   left: 0;
-  bottom: 24%;
+  bottom: 16%;
 }
 
 .subhead {
@@ -67,11 +80,18 @@
 .hero-changer {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 30px;
+  transform: translateX(-50%);
+  padding-left: 176px;
 }
 
 .change-slide {
   width: 10px;
   height: 10px;
   border: solid var(--light);
+  margin-right: 10px;
+}
+
+.change-slide:last-child {
+  margin-right: 0;
 }
