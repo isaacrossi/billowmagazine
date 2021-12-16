@@ -32,7 +32,7 @@
     <?php endif; ?>
   </div>
 
-  <nav class="hero-changer flex space-between">
+  <nav class="hero-changer absolute flex space-between">
       <span class="change-slide br-100 ba bw-1"></span>
       <span class="change-slide br-100 ba bw-1"></span>
       <span class="change-slide br-100 ba bw-1"></span>

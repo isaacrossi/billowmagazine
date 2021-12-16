@@ -36,6 +36,18 @@
   color: var(--accent);
 }
 
+.light-bg {
+  background-color: var(--light);
+}
+
+.dark-bg {
+  background-color: var(--dark);
+}
+
+.accent-bg {
+  background-color: var(--accent);
+}
+
 .container {
   padding-inline: 96px;
 }
@@ -44,33 +56,14 @@ h1 {
   max-width: 410px;
 }
 
-.hero {
-  position: relative;
-  background-color: var(--dark);
-}
-
 .hero-slideshow {
-  position: absolute;
-  top: 0;
   bottom: 4.5rem;
-  right: 0;
   left: 10.5rem;
 }
 
-.hero-menu {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.hero-menu ul {
-  list-style-type: none;
-}
-
 .hero-content {
-  position: absolute;
-  left: 0;
-  bottom: 16%;
+  bottom: 50%;
+  transform: translateY(75%);
 }
 
 .subhead {
@@ -78,11 +71,10 @@ h1 {
 }
 
 .hero-changer {
-  position: absolute;
   left: 50%;
   bottom: 30px;
   transform: translateX(-50%);
-  padding-left: 176px;
+  padding-left: 10.5rem;
 }
 
 .change-slide {
