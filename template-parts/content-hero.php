@@ -19,16 +19,16 @@
     </nav>
   </div>
 
-  <div class="hero-content absolute left-0 pl5">
+  <div class="hero-content absolute left-0 pl5 pb5">
     <!-- country -->
     <?php if( get_field('country') ): ?>
-      <p class="gothic light ttu tracked mv0"><?php the_field('country'); ?></p>
+      <p class="f6 gothic light ttu tracked mv0"><?php the_field('country'); ?></p>
     <?php endif; ?>
     <!-- title -->
     <h1 class="gothic light mv2  f-headline lh-solid"> <?php the_title(); ?></h1>
     <!-- subhead -->
     <?php if( get_field('subhead') ): ?>
-      <p class="subhead editorial light f5 mv0"><?php the_field('subhead'); ?></p>
+      <p class="subhead editorial light f5 mv0 lh-copy"><?php the_field('subhead'); ?></p>
     <?php endif; ?>
   </div>
 

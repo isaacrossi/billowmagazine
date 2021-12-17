@@ -62,12 +62,11 @@ h1 {
 }
 
 .hero-content {
-  bottom: 50%;
-  transform: translateY(75%);
+  bottom: 4.5rem;
 }
 
 .subhead {
-  max-width: 350px;
+  max-width: 365px;
 }
 
 .hero-changer {
@@ -86,4 +85,12 @@ h1 {
 
 .change-slide:last-child {
   margin-right: 0;
+}
+
+.line {
+  width: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
 }
