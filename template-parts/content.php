@@ -12,6 +12,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<section class="entry-content">
+
+		<!-- Our header for individual story pages-->
 		<div class="flex">
 					
 			<!-- our header background image -->
@@ -25,16 +27,27 @@
 						<span class="line accent-bg mt4"></span>
 					</p>
 					<!-- standard wordpress data -->
-					<h1 class="f1 gothic dark mt0 mb3 ttu">
+					<h1 class="f1 gothic dark mt0 mb3 ttu lh-solid">
 						<?php the_title(); ?>
 					</h1>
-					<p class="f5 dark editorial mt0 mb4 lh-copy">
+					<p class="f4 dark editorial mt0 mb4 lh-copy">
 						<?php the_field('subhead'); ?>
 					</p>
 				</div>
 			</div>
 
 		</div>
+
+		<!-- if we have some flexible content, let’s loop through it -->
+		<?php if( have_rows('content') ): while ( have_rows('content') ) : the_row();
+		// this is our text block
+			if( get_row_layout() == 'text_block' ): ?>
+				<div class="text-block f4 editorial dark pv6 measure-wide center lh-copy">
+					<p><?php the_sub_field('text_content'); ?></p>
+				</div>
+			<?php endif;
+		endwhile; endif; ?>
+		
 	</section><!-- .entry-content -->
 
 	<footer class="entry-footer">
