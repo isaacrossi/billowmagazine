@@ -56,13 +56,17 @@ h1 {
   max-width: 410px;
 }
 
+.hero h1 {
+  max-width: 440px;
+}
+
 .hero-slideshow {
   bottom: 4.5rem;
   left: 10.5rem;
 }
 
 .hero-content {
-  bottom: 4.5rem;
+  bottom: 1.5rem;
 }
 
 .subhead {
@@ -93,4 +97,12 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   height: 1px;
+}
+
+.text-block h3 {
+  font-size: 24px;
+  font-family: "League Gothic";
+  color: var(--dark);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }

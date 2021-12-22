@@ -1,6 +1,6 @@
 <section class="hero relative dark-bg min-vh-100">
 
-  <div class="hero-slideshow absolute top-0 right-0 cover bg-right"  style="
+  <div class="hero-slideshow absolute top-0 right-0 cover bg-right" style="
     <?php if( get_field('hero_image') ): ?>
       background-image: url(<?php the_field('hero_image'); ?>);
     <?php endif; ?>
@@ -22,13 +22,13 @@
   <div class="hero-content absolute left-0 pl5 pb5">
     <!-- country -->
     <?php if( get_field('country') ): ?>
-      <p class="f6 gothic light ttu tracked mv0"><?php the_field('country'); ?></p>
+      <p class="f5 gothic light ttu tracked mv0"><?php the_field('country'); ?></p>
     <?php endif; ?>
     <!-- title -->
-    <h1 class="gothic light mv2  f-headline lh-solid"> <?php the_title(); ?></h1>
+    <h1 class="gothic light mv2 f-headline lh-solid ttu"> <?php the_title(); ?></h1>
     <!-- subhead -->
     <?php if( get_field('subhead') ): ?>
-      <p class="subhead editorial light f5 mv0 lh-copy"><?php the_field('subhead'); ?></p>
+      <p class="subhead editorial light f4 mv0 lh-copy"><?php the_field('subhead'); ?></p>
     <?php endif; ?>
   </div>
 
