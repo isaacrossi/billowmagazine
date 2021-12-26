@@ -1,9 +1,7 @@
 <section class="hero relative dark-bg min-vh-100">
 
   <div class="hero-slideshow absolute top-0 right-0 cover bg-right" style="
-    <?php if( get_field('hero_image') ): ?>
-      background-image: url(<?php the_field('hero_image'); ?>);
-    <?php endif; ?>
+    <?php nice_background('hero_image'); ?>
   ">
   </div>
 
