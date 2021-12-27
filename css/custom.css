@@ -48,10 +48,6 @@
   background-color: var(--accent);
 }
 
-.container {
-  padding-inline: 96px;
-}
-
 h1 {
   max-width: 410px;
 }
