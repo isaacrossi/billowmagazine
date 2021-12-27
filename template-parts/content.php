@@ -30,8 +30,7 @@
 		
 	</div><!-- .entry-content -->
 
-
-	
+	<?php get_template_part('template-parts/content-explore'); ?>	
 
 	<footer class="entry-footer">
 		<?php //billowmagazine_entry_footer(); ?>

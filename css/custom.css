@@ -105,7 +105,7 @@ h1 {
 
 .gallery-image img {
   width: auto !important;
-  height: auto !important;
+  height: 100% !important;
   display: block;
 }
 
