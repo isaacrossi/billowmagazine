@@ -110,6 +110,7 @@ h1 {
 .gallery-image img {
   width: auto !important;
   height: auto !important;
+  display: block;
 }
 
 .caption {
