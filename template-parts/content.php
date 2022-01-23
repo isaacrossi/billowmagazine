@@ -30,10 +30,9 @@
 		
 	</div><!-- .entry-content -->
 
-	<?php get_template_part('template-parts/content-explore'); ?>	
-
 	<footer class="entry-footer">
-		<?php //billowmagazine_entry_footer(); ?>
+	<?php get_template_part('template-parts/content-share'); ?>
+		<?php get_template_part('template-parts/content-explore'); ?>
 	</footer><!-- .entry-footer -->
 	
 </article><!-- #post-<?php the_ID(); ?> -->

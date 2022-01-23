@@ -7,7 +7,7 @@
       <!-- here we assign our caption to a variable and if its not empty we display it on the page -->
       <?php $caption = wp_get_attachment_caption($image['id']); ?>
       <?php if(!empty($caption)) : ?>
-        <p class="caption editorial f5 o-50 pt3 mv0">
+        <p class="caption editorial f6 f5-ns o-50 pt3 mv0">
           <?php echo $caption; ?>
         </p>
       <?php endif; ?>	

@@ -23,7 +23,7 @@
       <p class="f5 gothic light ttu tracked mv0"><?php the_field('country'); ?></p>
     <?php endif; ?>
     <!-- title -->
-    <h1 class="gothic light mv2 f-headline lh-solid ttu"> <?php the_title(); ?></h1>
+    <h1 class="gothic light mv2 f-headline lh-solid"> <?php the_title(); ?></h1>
     <!-- subhead -->
     <?php if( get_field('subhead') ): ?>
       <p class="subhead editorial light f4 mv0 lh-copy"><?php the_field('subhead'); ?></p>

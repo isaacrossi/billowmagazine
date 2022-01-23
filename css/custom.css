@@ -14,10 +14,12 @@
   --light: #fcfcfd;
   --dark: #0d0d0d;
   --accent: #d44502;
+  --title-spacing: 40px;
 }
 
 .gothic {
   font-family: "League Gothic";
+  font-weight: 500;
 }
 
 .editorial {
@@ -98,8 +100,8 @@ h1 {
 .text-block h3 {
   font-size: 24px;
   font-family: "League Gothic";
+  font-weight: 700;
   color: var(--dark);
-  text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
@@ -115,4 +117,8 @@ h1 {
 
 .container {
   max-width: 1300px;
+}
+
+.explore-title {
+  margin-bottom: var(--title-spacing);
 }
