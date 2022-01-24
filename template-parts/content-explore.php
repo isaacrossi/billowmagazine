@@ -5,7 +5,7 @@
     More Stories
   </h2>
 
-  <div class="flex-ns flex-wrap justify-between flex-column">
+  <div class="flex flex-wrap justify-between">
 
     <?php
     // organise our options into a data object

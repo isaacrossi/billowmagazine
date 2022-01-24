@@ -5,7 +5,7 @@
   ">
   </div>
 
-  <div class="hero-menu absolute top-0 left-0 pl5">
+  <div class="hero-menu absolute top-0 left-0">
     <h1 class="pt4 mt0 mb2"><img src="<?php echo get_template_directory_uri() . '/images/logo.svg'; ?>" />
     </h1>
     <nav>
@@ -17,7 +17,7 @@
     </nav>
   </div>
 
-  <div class="hero-content absolute left-0 pl5 pb5">
+  <div class="hero-content absolute left-0 pb4">
     <!-- country -->
     <?php if( get_field('country') ): ?>
       <p class="f5 gothic accent ttu tracked mv0"><?php the_field('country'); ?></p>

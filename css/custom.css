@@ -55,7 +55,11 @@ h1 {
 }
 
 .hero h1 {
-  max-width: 440px;
+  max-width: 500px;
+}
+
+.hero-menu {
+  left: 3rem;
 }
 
 .hero-slideshow {
@@ -64,11 +68,12 @@ h1 {
 }
 
 .hero-content {
-  bottom: 1.5rem;
+  bottom: 3rem;
+  left: 3rem;
 }
 
 .subhead {
-  max-width: 365px;
+  max-width: 455px;
 }
 
 .hero-changer {
