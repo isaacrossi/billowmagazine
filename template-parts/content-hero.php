@@ -20,7 +20,7 @@
   <div class="hero-content absolute left-0 pl5 pb5">
     <!-- country -->
     <?php if( get_field('country') ): ?>
-      <p class="f5 gothic light ttu tracked mv0"><?php the_field('country'); ?></p>
+      <p class="f5 gothic accent ttu tracked mv0"><?php the_field('country'); ?></p>
     <?php endif; ?>
     <!-- title -->
     <h1 class="gothic light mv2 f-headline lh-solid"> <?php the_title(); ?></h1>

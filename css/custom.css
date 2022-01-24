@@ -14,7 +14,7 @@
   --light: #fcfcfd;
   --dark: #0d0d0d;
   --accent: #d44502;
-  --title-spacing: 40px;
+  --title-spacing: 32px;
 }
 
 .gothic {
@@ -103,6 +103,7 @@ h1 {
   font-weight: 700;
   color: var(--dark);
   letter-spacing: 0.05em;
+  margin-bottom: var(--title-spacing);
 }
 
 .gallery-image img {

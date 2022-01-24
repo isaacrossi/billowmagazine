@@ -17,6 +17,8 @@ get_header();
 			the_post();
 
 			get_template_part( 'template-parts/content', get_post_type() );
+			
+			wpb_set_post_views(get_the_ID());
 
 		endwhile; // End of the loop.
 		?>

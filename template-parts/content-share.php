@@ -1,7 +1,7 @@
 <div class="social w5 center pv5 pv6-l">
   <h4 class="gothic accent f6 ttu tracked mb4 tc relative">
     <span class="line mb4"></span>
-    Share
+    Share this story
   </h4>
   <div class="flex items-center justify-center">
     <a href="https://facebook.com/nomadsun" class="db mh2 link">
