@@ -25,6 +25,7 @@ get_header();
 				get_template_part('template-parts/content-hero');
 			endwhile; endif;
 			get_template_part('template-parts/content-popular');
+			get_template_part('template-parts/content-bio');
 		?>	
 	</main><!-- #main -->
 

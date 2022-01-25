@@ -15,6 +15,7 @@
   --dark: #0d0d0d;
   --accent: #d44502;
   --title-spacing: 32px;
+  --grey: #f1f1f1;
 }
 
 .gothic {
@@ -40,6 +41,10 @@
 
 .light-bg {
   background-color: var(--light);
+}
+
+.grey-bg {
+  background-color: var(--grey);
 }
 
 .dark-bg {
@@ -127,6 +132,10 @@ h1 {
 
 .explore-title {
   margin-bottom: var(--title-spacing);
+}
+
+.bio-text {
+  max-width: 900px;
 }
 
 @media (max-width: 1000px) {
