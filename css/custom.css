@@ -58,13 +58,13 @@ h1 {
   max-width: 500px;
 }
 
-.hero-menu {
-  left: 3rem;
-}
-
 .hero-slideshow {
   bottom: 4.5rem;
   left: 10.5rem;
+}
+
+.hero-menu {
+  left: 3rem;
 }
 
 .hero-content {
@@ -127,4 +127,40 @@ h1 {
 
 .explore-title {
   margin-bottom: var(--title-spacing);
+}
+
+@media (max-width: 1000px) {
+  .hero-slideshow {
+    bottom: 4.5rem;
+    left: 0rem;
+    top: 4.5rem;
+  }
+
+  .hero-menu h1 {
+    padding-top: 23.5px;
+  }
+
+  .hero-content {
+    bottom: 6rem;
+    left: 3rem;
+  }
+
+  .hero-changer {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-menu img {
+    max-width: 48px;
+  }
+
+  .hero-content {
+    left: 1.5rem;
+    bottom: 140px;
+  }
+
+  .hero-menu {
+    left: 1.5rem;
+  }
 }

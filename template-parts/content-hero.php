@@ -8,25 +8,18 @@
   <div class="hero-menu absolute top-0 left-0">
     <h1 class="pt4 mt0 mb2"><img src="<?php echo get_template_directory_uri() . '/images/logo.svg'; ?>" />
     </h1>
-    <nav>
-      <ul class="ma0 pl0 list">
-        <li><img src="<?php echo get_template_directory_uri() . '/images/youtube.svg'; ?>" class="mb2"/></li>
-        <li><img src="<?php echo get_template_directory_uri() . '/images/instagram.svg'; ?>" class="mb2"/></li>
-        <li><img src="<?php echo get_template_directory_uri() . '/images/email.svg'; ?>" /></li>
-      </ul>
-    </nav>
   </div>
 
-  <div class="hero-content absolute left-0 pb4">
+  <div class="hero-content absolute left-0 pb4 pr2">
     <!-- country -->
     <?php if( get_field('country') ): ?>
-      <p class="f5 gothic accent ttu tracked mv0"><?php the_field('country'); ?></p>
+      <p class="f6 f4-ns gothic accent ttu tracked mv0"><?php the_field('country'); ?></p>
     <?php endif; ?>
     <!-- title -->
-    <h1 class="gothic light mv2 f-headline lh-solid"> <?php the_title(); ?></h1>
+    <h1 class="gothic light mv2 f1 f-subheadline-m f-headline-l lh-solid"> <?php the_title(); ?></h1>
     <!-- subhead -->
     <?php if( get_field('subhead') ): ?>
-      <p class="subhead editorial light f4 mv0 lh-copy"><?php the_field('subhead'); ?></p>
+      <p class="subhead editorial light f5 f4-ns mv0 lh-copy"><?php the_field('subhead'); ?></p>
     <?php endif; ?>
   </div>
 

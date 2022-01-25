@@ -185,7 +185,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 function nice_background($image_field) {
 	//  we pass in our image field and it returns us it in a formatted fashion
-	echo 'background-image: url(' . get_field($image_field) . ')';
+	echo 'background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(' . get_field($image_field) . ')';
 }
 
 // function that counts how many times a post has been viewed
@@ -202,4 +202,3 @@ function wpb_set_post_views($postID) {
 	}
 }
 
-remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
