@@ -60,7 +60,7 @@ h1 {
 }
 
 .hero h1 {
-  max-width: 500px;
+  max-width: 540px;
 }
 
 .hero-slideshow {
@@ -136,6 +136,16 @@ h1 {
 
 .bio-text {
   max-width: 900px;
+}
+
+.latest-story {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.newsletter-body {
+  max-width: 360px;
 }
 
 @media (max-width: 1000px) {

@@ -26,6 +26,8 @@ get_header();
 			endwhile; endif;
 			get_template_part('template-parts/content-popular');
 			get_template_part('template-parts/content-bio');
+			get_template_part('template-parts/content-recent');	
+			get_template_part('template-parts/content-newsletter');	
 		?>	
 	</main><!-- #main -->
 
