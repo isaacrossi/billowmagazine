@@ -148,6 +148,19 @@ h1 {
   max-width: 360px;
 }
 
+.email {
+  width: 300px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.button {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+
 @media (max-width: 1000px) {
   .hero-slideshow {
     bottom: 4.5rem;
