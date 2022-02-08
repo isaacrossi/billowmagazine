@@ -161,6 +161,10 @@ h1 {
   max-width: 350px;
 }
 
+input.button {
+  cursor: pointer;
+}
+
 @media (max-width: 1000px) {
   .hero-slideshow {
     bottom: 4.5rem;

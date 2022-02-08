@@ -10,7 +10,7 @@
     <?php
     // organise our options into a data object
       $args = array(
-        'posts_per_page' => 2,
+        'posts_per_page' => 3,
         'orderby' => 'rand',
         'post__not_in' => array($post->ID)
       );
