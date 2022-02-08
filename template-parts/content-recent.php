@@ -21,7 +21,7 @@
       ?>
         <a href="<?php the_permalink() ?>" class="db link w-100 ph2 ph3-l mb5 mb0-ns">
           <img src="<?php the_field('hero_image'); ?>"> 
-          <p class="f6 gothic ttu accent mt3 mb2"><?php the_field('country'); ?></p>
+          <p class="f5 tracked gothic ttu accent mt3 mb2"><?php the_field('country'); ?></p>
           <h4 class="f3 f2-ns gothic dark mt0 mb2"><?php the_title(); ?></h4>
           <p class="dark ma0"><?php the_field('subhead'); ?></p>
         </a>
@@ -46,7 +46,7 @@
       ?>
         <a href="<?php the_permalink() ?>" class="db link w-100 w-50-ns ph2 ph3-l mb5 mb0-ns">
           <img src="<?php the_field('hero_image'); ?>"> 
-          <p class="f6 gothic ttu accent mt3 mb2"><?php the_field('country'); ?></p>
+          <p class="f5 tracked gothic ttu accent mt3 mb2"><?php the_field('country'); ?></p>
           <h4 class="f3 f2-ns gothic dark mt0 mb2"><?php the_title(); ?></h4>
           <p class="dark ma0"><?php the_field('subhead'); ?></p>
         </a>

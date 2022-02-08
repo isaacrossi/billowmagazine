@@ -134,10 +134,6 @@ h1 {
   margin-bottom: var(--title-spacing);
 }
 
-.bio-text {
-  max-width: 900px;
-}
-
 .latest-story {
   position: sticky;
   position: -webkit-sticky;
@@ -159,6 +155,10 @@ h1 {
   padding: 8px;
   border: none;
   border-radius: 8px;
+}
+
+.about-text {
+  max-width: 350px;
 }
 
 @media (max-width: 1000px) {

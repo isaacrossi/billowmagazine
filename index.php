@@ -27,7 +27,8 @@ get_header();
 			get_template_part('template-parts/content-popular');
 			get_template_part('template-parts/content-bio');
 			get_template_part('template-parts/content-recent');	
-			get_template_part('template-parts/content-newsletter');	
+			get_template_part('template-parts/content-newsletter');
+			get_template_part('template-parts/content-footer');	
 		?>	
 	</main><!-- #main -->
 
