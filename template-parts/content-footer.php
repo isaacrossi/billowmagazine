@@ -1,32 +1,34 @@
-<footer class="flex flex-row justify-between ph6 pv4 accent-bg">
+<footer class="accent-bg">
 
-  <div class="w-thirds">
+  <div  class="center container flex flex-row justify-between ph6 pv4 ">
 
-    <img class="mb3" src="<?php echo get_template_directory_uri() . '/images/logo.svg'; ?>">
+    <div>
 
-    <nav class="flex flex-row items-end">
-      <a class="mr2"><img src="<?php echo get_template_directory_uri() . '/images/youtube.svg'; ?>"></a>
-      <a class="mr2"><img src="<?php echo get_template_directory_uri() . '/images/instagram.svg'; ?>"></a>
-      <a><img src="<?php echo get_template_directory_uri() . '/images/email.svg'; ?>"></a>
-    </nav>
+      <img class="footer-logo mb3" src="<?php echo get_template_directory_uri() . '/images/logo.svg'; ?>">
 
-    <p class="editorial f5 light ma0 mt3">Billow Magazine 2022 © <br> All Rights Reserved</p>
+      <nav class="flex flex-row items-end">
+        <a class="mr2"><img src="<?php echo get_template_directory_uri() . '/images/youtube.svg'; ?>"></a>
+        <a class="mr2"><img src="<?php echo get_template_directory_uri() . '/images/instagram.svg'; ?>"></a>
+        <a><img src="<?php echo get_template_directory_uri() . '/images/email.svg'; ?>"></a>
+      </nav>
 
-  </div>
+      <p class="editorial f5 light ma0 mt3 lh-copy">Billow Magazine 2022 © <br> All Rights Reserved</p>
 
-    
+      </div>
 
-  <div class="w-thirds">
-    <p class="gothic light f3 ma0 mb3">Continents</p>
-    <p class="editorial light f5 ma0 mb2">Oceania</p>
-    <p class="editorial light f5 ma0 mb2">Asia</p>
-    <p class="editorial light f5 ma0 mb2">South America</p>
-    <p class="editorial light f5 ma0 mb2">North America</p>
-  </div>
+      <div>
+      <p class="gothic light f3 ma0 mb3">Continents</p>
+      <p class="editorial light f5 ma0 mb2">Oceania</p>
+      <p class="editorial light f5 ma0 mb2">Asia</p>
+      <p class="editorial light f5 ma0 mb2">South America</p>
+      <p class="editorial light f5 ma0 mb2">North America</p>
+      </div>
 
-  <div class="w-thirds">
-    <p class="gothic light f3 ma0 mb3">About</p>
-    <p class="about-text editorial light f5 ma0 mb2">We are a surf and travel magazine born out of a desire to get more people out there experiencing cool sh*t.</p>
+      <div>
+      <p class="gothic light f3 ma0 mb3">About</p>
+      <p class="about-text editorial light f5 ma0 mb2 lh-copy">We are a surf and travel magazine born out of a desire to get more people out there experiencing cool sh*t.</p>
+    </div>
+
   </div>
 
 </footer>

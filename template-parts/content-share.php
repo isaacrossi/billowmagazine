@@ -1,5 +1,5 @@
 <div class="social w5 center pv5 pv6-l">
-  <h4 class="gothic accent f6 ttu tracked mb4 tc relative">
+  <h4 class="gothic accent f5 ttu tracked mb4 tc relative">
     <span class="line mb4"></span>
     Share this story
   </h4>

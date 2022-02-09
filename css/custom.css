@@ -165,6 +165,10 @@ input.button {
   cursor: pointer;
 }
 
+.footer-logo {
+  width: 56px;
+}
+
 @media (max-width: 1000px) {
   .hero-slideshow {
     bottom: 4.5rem;

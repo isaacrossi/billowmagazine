@@ -31,8 +31,9 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-	<?php get_template_part('template-parts/content-share'); ?>
+	  <?php get_template_part('template-parts/content-share'); ?>
 		<?php get_template_part('template-parts/content-explore'); ?>
+		<?php get_template_part('template-parts/content-footer'); ?>
 	</footer><!-- .entry-footer -->
 	
 </article><!-- #post-<?php the_ID(); ?> -->

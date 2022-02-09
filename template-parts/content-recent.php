@@ -1,4 +1,4 @@
-<section class="center container ph3 ph4-l pv5 pv6-l">
+<section class="center container ph3 ph4-l pv5 pv6-l container">
 
   <h2 class="gothic accent f1 mv0 ph3 explore-title">
     Recent Stories
