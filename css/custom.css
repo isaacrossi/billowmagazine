@@ -190,7 +190,11 @@ input.button {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 960px) {
+  .newsletter-body {
+    max-width: 680px;
+  }
+
   .hero-menu img {
     max-width: 48px;
   }
