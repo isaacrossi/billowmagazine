@@ -2,7 +2,7 @@
 <div class="center container ph3 ph4-l pv5 pv6-l">
 
 
-  <h2 class="gothic accent f1 mv0 ph3 ph2-ns explore-title">
+  <h2 class="gothic accent f1 mv0 ph2 ph3-l explore-title">
     Popular Stories
   </h2>
 

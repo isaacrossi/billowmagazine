@@ -1,7 +1,7 @@
 
-<div class="center container ph4-l mb5 mb6-l">
+<div class="center container ph3 ph4-l pv5 pv6-l mb5 mb6-l">
 
-  <h2 class="gothic accent f1 mv0 ph3 explore-title">
+  <h2 class="gothic accent f1 mv0 ph2 ph3-l explore-title">
     More Stories
   </h2>
 
