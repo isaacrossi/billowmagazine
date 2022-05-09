@@ -19,7 +19,7 @@
         // do a loop with our new query code
         if ($query->have_posts()): while ($query->have_posts()): $query->the_post()
       ?>
-        <a href="<?php the_permalink() ?>" class="db link w-100 ph2 ph3-l mb5 mb0-ns">
+        <a href="<?php the_permalink() ?>" class="db link w-100 ph2 ph3-l mb5 mb0-ns" data-hover="read">
           <img src="<?php the_field('hero_image'); ?>"> 
           <p class="f5 tracked gothic ttu accent mt3 mb2"><?php the_field('country'); ?></p>
           <h4 class="f3 f2-ns gothic dark mt0 mb2"><?php the_title(); ?></h4>
@@ -44,7 +44,7 @@
         // do a loop with our new query code 
         if ($query->have_posts()): while ($query->have_posts()): $query->the_post()
       ?>
-        <a href="<?php the_permalink() ?>" class="recent-stories db link w-100 w-50-ns ph2 ph3-l mb5 mb0-ns mt4">
+        <a href="<?php the_permalink() ?>" class="recent-stories db link w-100 w-50-ns ph2 ph3-l mb5 mb0-ns mt4" data-hover="read">
           <img src="<?php the_field('hero_image'); ?>"> 
           <p class="f5 tracked gothic ttu accent mt3 mb2"><?php the_field('country'); ?></p>
           <h4 class="f3 f2-ns gothic dark mt0 mb2"><?php the_title(); ?></h4>

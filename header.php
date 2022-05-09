@@ -27,3 +27,9 @@
 
 	<header id="masthead" class="site-header">
 	</header><!-- #masthead -->
+
+	<div class="cursors">
+		<div>
+			<span></span>
+		</div>
+	</div>

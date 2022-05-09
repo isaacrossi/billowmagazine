@@ -1,9 +1,12 @@
 <section class="hero relative dark-bg min-vh-100">
 
-  <div class="hero-slideshow absolute top-0 right-0 cover bg-right" style="
-    <?php nice_background('hero_image'); ?>
-  ">
-  </div>
+  <a href="<?php the_permalink()?>" data-hover="read">
+    <div class="hero-slideshow absolute top-0 right-0 cover bg-right" style="
+      <?php nice_background('hero_image'); ?>
+    ">
+    </div>
+  </a>
+
 
   <div class="hero-menu absolute top-0 left-0">
     <h1 class="pt4 mt0 mb2"><img src="<?php echo get_template_directory_uri() . '/images/logo.svg'; ?>" />
