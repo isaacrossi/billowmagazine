@@ -16,8 +16,10 @@
   --accent: #d44502;
   --title-spacing: 32px;
   --grey: #f1f1f1;
-  --gothic: "League Gothic";  
+  --header-font: "League Gothic"; 
+  --body-font: "Editorial New";
   cursor: none;
+  overflow-x: hidden;
 }
 
 .gothic {
@@ -190,7 +192,7 @@ div.cursors div span {
   left: 24px;
   width: 300px;
 
-  font-family: var(--gothic);
+  font-family: var(--header-font);
   font-size: 16px;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -202,6 +204,16 @@ div.cursors div span {
 
 div.cursors div span.visible {
   opacity: 1;
+}
+
+input.email.invalid {
+  outline: none !important;
+  border: 3px solid red;
+}
+
+.error-message {
+  font-family: var(--body-font);
+  color: red;
 }
 
 

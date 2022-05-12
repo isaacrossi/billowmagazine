@@ -13,12 +13,16 @@
     <div>
 
       <div id="error"></div>
-      <form class="flex flex-column" id="form" name="form" novalidate>
+      <form class="flex flex-column" name="form1" novalidate>
 
-          <input class="email mb1 editorial mt3-m" type="email" required="true" placeholder="Enter your email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Please enter a valid email">
-          <input class="button accent-bg light ttu gothic tracked" type="submit" value="keep me in the loop" id="button" name="button">
-        
+          <span class="error-message"></span>
+
+          <input class="email mb1 editorial mt3-m" type="email" name="email1" placeholder="Enter your email" title="Please enter a valid email">
+
+          <input class="button accent-bg light ttu gothic tracked" name="submit" type="submit" id="submit" value="keep me in the loop" onclick="ValidateEmail(document.form1.email1)">
+
       </form>
+
     </div> 
 
   </div>
