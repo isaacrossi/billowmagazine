@@ -81,7 +81,7 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -2;
+  z-index: 5;
 }
 
 .hero-image {
@@ -99,6 +99,7 @@ h1 {
 .hero-menu {
   left: 3rem;
   top: 32px;
+  z-index: 6;
 }
 
 .subhead {
@@ -110,6 +111,7 @@ h1 {
   bottom: 30px;
   transform: translateX(-50%);
   padding-left: 10.5rem;
+  z-index: 6;
 }
 
 .change-slide {
@@ -193,7 +195,7 @@ h1 {
   width: 56px;
 }
 
-/* div.cursors div {
+div.cursors div {
   position: absolute;
   top: 300px;
   left: 300px;
@@ -224,7 +226,7 @@ div.cursors div span {
 
 div.cursors div span.visible {
   opacity: 1;
-} */
+}
 
 input.email.invalid {
   outline: none !important;

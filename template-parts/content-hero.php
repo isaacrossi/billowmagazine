@@ -26,30 +26,31 @@
         // do a loop with our new query code
         if ($query->have_posts()): while ($query->have_posts()): $query->the_post()
       ?>
+        <a href="<?php the_permalink() ?>" data-hover="read">
 
-        <div class="hero-story relative dark-bg min-vh-100">
+          <div class="hero-story relative dark-bg min-vh-100">
 
-          <a href="<?php the_permalink()?>" data-hover="read">
             <div class="hero-image absolute top-0 right-0 cover bg-right" style="
               <?php nice_background('hero_image'); ?>
             ">
             </div>
-          </a>
+            
+            <div class="hero-text flex flex-column justify-end pb4 pr2 z-5 ph3-l">
+              <!-- country -->
+              <?php if( get_field('country') ): ?>
+                <p class="f6 f4-ns gothic accent ttu tracked mv0"><?php the_field('country'); ?></p>
+              <?php endif; ?>
+              <!-- title -->
+              <h1 class="gothic light mv2 f1 f-subheadline-m f-headline-l lh-solid"> <?php the_title(); ?></h1>
+              <!-- subhead -->
+              <?php if( get_field('subhead') ): ?>
+                <p class="subhead editorial light f5 f4-ns mv0 lh-copy"><?php the_field('subhead'); ?></p>
+              <?php endif; ?>
+            </div>
 
-          <div class="hero-text flex flex-column justify-end pb4 pr2 z-5 ph3-l">
-            <!-- country -->
-            <?php if( get_field('country') ): ?>
-              <p class="f6 f4-ns gothic accent ttu tracked mv0"><?php the_field('country'); ?></p>
-            <?php endif; ?>
-            <!-- title -->
-            <h1 class="gothic light mv2 f1 f-subheadline-m f-headline-l lh-solid"> <?php the_title(); ?></h1>
-            <!-- subhead -->
-            <?php if( get_field('subhead') ): ?>
-              <p class="subhead editorial light f5 f4-ns mv0 lh-copy"><?php the_field('subhead'); ?></p>
-            <?php endif; ?>
           </div>
 
-        </div>
+        </a> 
 
       <?php endwhile; endif; ?>
 
