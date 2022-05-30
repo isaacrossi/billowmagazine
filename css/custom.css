@@ -18,8 +18,6 @@
   --grey: #f1f1f1;
   --header-font: "League Gothic"; 
   --body-font: "Editorial New";
-  cursor: none;
-  overflow-x: hidden;
 }
 
 .gothic {
@@ -63,22 +61,44 @@ h1 {
   max-width: 410px;
 }
 
-.hero h1 {
-  max-width: 540px;
+.holder {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10000vw;
+  height: 100vh;
+  transition: left 1s;
 }
 
-.hero-slideshow {
+.hero h1 {
+  max-width: 600px;
+}
+
+.hero-story {
+  float: left;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+.hero-image {
   bottom: 4.5rem;
   left: 10.5rem;
+  z-index: -1;
+}
+
+.hero-text {
+  height: 80vh;
+  align-self: baseline;
+  padding-left: 48px;
 }
 
 .hero-menu {
   left: 3rem;
-}
-
-.hero-content {
-  bottom: 3rem;
-  left: 3rem;
+  top: 32px;
 }
 
 .subhead {
@@ -173,7 +193,7 @@ h1 {
   width: 56px;
 }
 
-div.cursors div {
+/* div.cursors div {
   position: absolute;
   top: 300px;
   left: 300px;
@@ -204,37 +224,43 @@ div.cursors div span {
 
 div.cursors div span.visible {
   opacity: 1;
-}
+} */
 
 input.email.invalid {
   outline: none !important;
   border: 3px solid red;
 }
 
-.error-message {
+.form-message {
   font-family: var(--body-font);
+}
+
+.form-message.bad {
   color: red;
+}
+
+.form-message.good {
+  color: #f1f1f1;
 }
 
 
 @media (max-width: 1000px) {
-  .hero-slideshow {
+  .hero-image {
     bottom: 4.5rem;
     left: 0rem;
     top: 4.5rem;
   }
 
-  .hero-menu h1 {
+  /* .hero-menu h1 {
     padding-top: 23.5px;
-  }
-
-  .hero-content {
-    bottom: 6rem;
-    left: 3rem;
-  }
+  } */
 
   .hero-changer {
     padding-left: 0px;
+  }
+
+  .hero-menu {
+    top: 20px;
   }
 }
 
@@ -243,13 +269,13 @@ input.email.invalid {
     max-width: 48px;
   }
 
-  .hero-content {
-    left: 1.5rem;
-    bottom: 140px;
+  .hero-text {
+    padding-left: 24px;
   }
 
   .hero-menu {
     left: 1.5rem;
+    top: 16px
   }
 }
 
