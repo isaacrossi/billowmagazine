@@ -1,4 +1,4 @@
-<section class="hero relative vh-100">
+<section class="hero relative dark-bg vh-100">
 
   <div class="hero-menu absolute left-0">
       <h1 class="mt0 mb3"><img src="<?php echo get_template_directory_uri() . '/images/logo.svg'; ?>" />
@@ -6,9 +6,9 @@
   </div>
 
   <nav class="hero-changer absolute flex space-between">
-    <span class="change-slide br-100 ba bw-1"></span>
-    <span class="change-slide br-100 ba bw-1"></span>
-    <span class="change-slide br-100 ba bw-1"></span>
+    <span class="change-slide slide-changer1  br-100 ba bw-1  fill"></span>
+    <span class="change-slide slide-changer2  br-100 ba bw-1"></span>
+    <span class="change-slide slide-changer3  br-100 ba bw-1"></span>
   </nav>
 
   <div class="slideshow relative vh-100 vw-100">
@@ -28,7 +28,7 @@
       ?>
         <a href="<?php the_permalink() ?>" data-hover="read">
 
-          <div class="hero-story relative dark-bg min-vh-100">
+          <div class="hero-story relative min-vh-100">
 
             <div class="hero-image absolute top-0 right-0 cover bg-right" style="
               <?php nice_background('hero_image'); ?>
