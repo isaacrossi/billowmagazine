@@ -11,11 +11,13 @@ document.addEventListener("mousemove", function(event) {
 anchorTags.forEach(tag => {
   tag.addEventListener("mouseover", function () {
     ball.classList.add("visible")
+    cursorMessage.classList.add("visible")
     cursorMessage.innerHTML = tag.getAttribute("data-hover")
     anchorTags.style.cursor = "none"
   })
 
   tag.addEventListener("mouseout", function () {
+    cursorMessage.classList.remove("visible")
     ball.classList.remove("visible")
   })
 

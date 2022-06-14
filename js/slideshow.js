@@ -35,15 +35,20 @@ function nextSlide() {
   moveSlide(currentSlide)
 }
 
-var previousSlide = function() {
-  currentSlide = currentSlide - 1
+// function previousSlide() {
+//   currentSlide = currentSlide - 1
   
-  if (currentSlide < 0) {
-    currentSlide = totalSlides -1
-  }
+//   if (currentSlide < 0) {
+//     currentSlide = totalSlides -1
+//   }
  
-  moveSlide(currentSlide)
-}
+//   moveSlide(currentSlide)
+// }
+
+setInterval(function() {
+  nextSlide()
+}, 4000)
+
 
 document.addEventListener('click', function () {
   nextSlide()
