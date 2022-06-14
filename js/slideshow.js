@@ -13,12 +13,15 @@ function moveSlide(slide) {
   let slideNumber = slide
   if (slideNumber === 1) {
     slideChanger1.classList.remove("fill")
+    slideChanger3.classList.remove("fill")
     slideChanger2.classList.add("fill")
   } else if (slideNumber === 2)  {
     slideChanger2.classList.remove("fill")
+    slideChanger1.classList.remove("fill")
     slideChanger3.classList.add("fill")
   } else {
     slideChanger3.classList.remove("fill")
+    slideChanger2.classList.remove("fill")
     slideChanger1.classList.add("fill")
   }
 }
@@ -45,15 +48,32 @@ function nextSlide() {
 //   moveSlide(currentSlide)
 // }
 
-setInterval(function() {
+autoSlide = setInterval(function() {
   nextSlide()
 }, 4000)
 
-
-document.addEventListener('click', function () {
-  nextSlide()
-  console.log(slides)
+slideChanger1.addEventListener('click', function () {
+  clearInterval(autoSlide)
+  moveSlide(0)
 })
+
+slideChanger2.addEventListener('click', function () {
+  clearInterval(autoSlide)
+  moveSlide(1)
+})
+
+slideChanger3.addEventListener('click', function () {
+  clearInterval(autoSlide)
+  moveSlide(2)
+})
+
+
+// document.addEventListener('click', function () {
+//   nextSlide()
+//   console.log(slides)
+// })
+
+
 
 
 

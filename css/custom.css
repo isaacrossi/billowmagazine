@@ -18,6 +18,7 @@
   --grey: #f1f1f1;
   --header-font: "League Gothic"; 
   --body-font: "Editorial New";
+  overflow-x: hidden;
 }
 
 .gothic {
