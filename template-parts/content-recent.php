@@ -4,9 +4,9 @@
     Recent Stories
   </h2>
 
-  <div class="flex flex-column flex-row-ns">
+  <div class="flex flex-column flex-row-l">
 
-    <div class="latest-story vh-100-ns w-100 w-50-ns flex flex-row flex-wrap justify-between">
+    <div class="latest-story vh-100-l w-100 w-50-l mb5-m flex flex-row flex-wrap justify-between">
 
       <?php
           // organise our options into a data object
@@ -30,7 +30,7 @@
 
     </div>
 
-    <div class="w-100 w-50-ns flex flex-row flex-wrap justify-between">
+    <div class="w-100 w-50-l flex flex-row flex-wrap justify-between">
 
       <?php
           // organise our options into a data object
