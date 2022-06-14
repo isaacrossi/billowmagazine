@@ -1,4 +1,4 @@
-<section class="hero relative dark-bg vh-100">
+<section class="hero relative dark-bg vh-75 vh-100-ns">
 
   <div class="hero-menu absolute left-0">
       <h1 class="mt0 mb3"><img src="<?php echo get_template_directory_uri() . '/images/logo.svg'; ?>" />
@@ -11,9 +11,9 @@
     <span class="change-slide slide-changer3  br-100 ba bw-1"></span>
   </nav>
 
-  <div class="slideshow relative vh-100 vw-100">
+  <div class="slideshow relative vh-75 vh-100-ns vw-100">
 
-    <div class="holder">
+    <div class="holder vh-75 min-vh-100-ns">
   
       <?php
           // organise our options into a data object
@@ -28,14 +28,14 @@
       ?>
         <a href="<?php the_permalink() ?>" data-hover="read">
 
-          <div class="hero-story relative min-vh-100">
+          <div class="hero-story relative vh-75 vh-100-ns">
 
             <div class="hero-image absolute top-0 right-0 cover bg-right" style="
               <?php nice_background('hero_image'); ?>
             ">
             </div>
             
-            <div class="hero-text flex flex-column justify-end pb4 pr2 z-5 ph3-l">
+            <div class="hero-text flex flex-column justify-center justify-end-ns pb4 pr2 z-5 ph3-l">
               <!-- country -->
               <?php if( get_field('country') ): ?>
                 <p class="f6 f4-ns gothic accent ttu tracked mv0"><?php the_field('country'); ?></p>

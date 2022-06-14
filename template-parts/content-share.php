@@ -10,7 +10,7 @@
     <a  href="https://twitter.com/nomadsun" class="db mh2 link">
       <img src="<?php bloginfo('template_directory');?>/images/twitter-black.svg" class="db">
     </a>
-    <a href="https://instagram.com/nomadsun" class="db mh2 link">
+    <a href="https://instagram.com/" class="db mh2 link">
       <img src="<?php bloginfo('template_directory');?>/images/insta-black.svg" class="db">
     </a>
   </div>
