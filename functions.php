@@ -146,6 +146,7 @@ function billowmagazine_scripts() {
 
 	wp_style_add_data( 'billowmagazine-style', 'rtl', 'replace' );
 
+	
 	wp_enqueue_script('billowmagazine-cursor', get_template_directory_uri() . '/js/cursor.js', array('jquery'), '1.0.0', true );
 
 	wp_enqueue_script('billowmagazine-validation', get_template_directory_uri() . '/js/validation.js', array('jquery'), '1.0.0', true );

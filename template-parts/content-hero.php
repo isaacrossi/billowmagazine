@@ -19,7 +19,7 @@
           // organise our options into a data object
         $args = array(
           'posts_per_page' => 3,
-          'orderby' => 'date',
+          'category_name' => 'featured'
         );
         // a variable with our query and options
         $query = new WP_Query( $args );
