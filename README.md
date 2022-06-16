@@ -12,4 +12,4 @@ Billow Magazine is a website built with wordpress that showcases surf and travel
 - The importance of breaking up a wordpress site into different template parts to enhance redability and reusability.
 - How to host a wordpress site.
 
-**the live site can be accessed here** : https://gallant-jennings-73ddc1.netlify.app/
+**the live site can be accessed here** : https://gallant-jennings-73ddc1.netlify.app/](https://billowmagazine.frb.io/
